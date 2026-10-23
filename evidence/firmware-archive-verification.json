@@ -1,0 +1,31 @@
+{
+  "release": "https://github.com/Crazy1wh/oppo-a7x-root-guide/releases/tag/firmware-c22-1220",
+  "draft": false,
+  "assets": [
+    {
+      "name": "PBBM00_11_OTA_1220_all_cUKUfmx0zcSQ.ozip.part001",
+      "bytes": 1073741824,
+      "github_sha256": "sha256:025fb8944b07fd3ca48d61f1355ea62912138f35cf2c1bf6f67c0a8bb3d80ef4",
+      "matches_local_manifest": true
+    },
+    {
+      "name": "PBBM00_11_OTA_1220_all_cUKUfmx0zcSQ.ozip.part002",
+      "bytes": 1073741824,
+      "github_sha256": "sha256:889d4981df27d52d4673a9b2f662c61a7d99e4c5e043a6ce92c8142837de8552",
+      "matches_local_manifest": true
+    },
+    {
+      "name": "PBBM00_11_OTA_1220_all_cUKUfmx0zcSQ.ozip.part003",
+      "bytes": 680463810,
+      "github_sha256": "sha256:188646b8914fc40c9b9ca112de0f5421044c137dcd6f82e82b169a7434297acd",
+      "matches_local_manifest": true
+    }
+  ],
+  "downloaded_manifest_matches": true,
+  "uploaded_asset_count": 4,
+  "verified_on": "2026-10-23",
+  "whole_original_and_locally_reassembled_sha256": "a29df96c1430590db8655d22f3b82060b59173744b5fd96c5138301ac09ca73c",
+  "local_full_size_split_merge_test": "PASS",
+  "small_sample_corruption_and_overwrite_checks": "PASS",
+  "publication_method": "Manual GitHub Release upload; no persistent workflow"
+}
