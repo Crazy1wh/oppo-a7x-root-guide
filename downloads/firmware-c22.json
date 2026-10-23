@@ -1,0 +1,31 @@
+{
+  "filename": "PBBM00_11_OTA_1220_all_cUKUfmx0zcSQ.ozip",
+  "bytes": 2827947458,
+  "md5": "467d47e11b96fbea9dc83217439ec109",
+  "sha256": "a29df96c1430590db8655d22f3b82060b59173744b5fd96c5138301ac09ca73c",
+  "part_bytes": 1073741824,
+  "parts": [
+    {
+      "name": "PBBM00_11_OTA_1220_all_cUKUfmx0zcSQ.ozip.part001",
+      "bytes": 1073741824,
+      "sha256": "025fb8944b07fd3ca48d61f1355ea62912138f35cf2c1bf6f67c0a8bb3d80ef4"
+    },
+    {
+      "name": "PBBM00_11_OTA_1220_all_cUKUfmx0zcSQ.ozip.part002",
+      "bytes": 1073741824,
+      "sha256": "889d4981df27d52d4673a9b2f662c61a7d99e4c5e043a6ce92c8142837de8552"
+    },
+    {
+      "name": "PBBM00_11_OTA_1220_all_cUKUfmx0zcSQ.ozip.part003",
+      "bytes": 680463810,
+      "sha256": "188646b8914fc40c9b9ca112de0f5421044c137dcd6f82e82b169a7434297acd"
+    }
+  ],
+  "official_urls": [
+    "https://gauss-otacostauto-cn.allawnfs.com/remove-206f1bce6bbe35ec5fae7162ae9a0675/ota/24/12/09/2d6aa9ac-6f5a-454a-a025-2adcc943b7c4.ozip",
+    "https://gauss-otacostmanual-cn.allawnfs.com/remove-206f1bce6bbe35ec5fae7162ae9a0675/ota/24/12/09/2d6aa9ac-6f5a-454a-a025-2adcc943b7c4.ozip"
+  ],
+  "release_tag": "firmware-c22-1220",
+  "release_url": "https://github.com/Crazy1wh/oppo-a7x-root-guide/releases/tag/firmware-c22-1220",
+  "release_download_base": "https://github.com/Crazy1wh/oppo-a7x-root-guide/releases/download/firmware-c22-1220/"
+}

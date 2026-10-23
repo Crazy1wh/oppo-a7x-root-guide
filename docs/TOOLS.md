@@ -24,6 +24,6 @@
 | Magisk v27.0 APK | `f511bd33d3242911d05b0939f910a3133ef2ba0e0ff1e098128f9f3cd0c16610` |
 | 用户提供的 Autoboot v2 ZIP | `e0a08598fa124423ad99e8bb4b0f6d3f928780127f9650648a81a6b1c11c4a48` |
 
-哈希仅对应现场实际文件。仓库不包含工具二进制、厂商 APK/OAT、完整 bugreport、官方固件或设备分区镜像。下载应从各自上游发布入口进行，并遵守各项目许可。
+哈希仅对应现场实际文件。Git 仓库不包含工具二进制、厂商 APK/OAT、完整 bugreport 或设备分区镜像；原始官方 OZIP 固件另存 Release 分卷，见 [下载入口](../downloads/README.md)。其余工具从各自上游发布入口下载，并遵守各项目许可。
 
 Magisk 原理参考：[官方安装说明](https://topjohnwu.github.io/Magisk/install.html)、[v27 boot_patch.sh](https://github.com/topjohnwu/Magisk/blob/v27.0/scripts/boot_patch.sh)。本案例对官方通用流程作了设备特定验证，不能用本案例覆盖其他设备的安装要求。

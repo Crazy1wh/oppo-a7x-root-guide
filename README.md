@@ -2,7 +2,13 @@
 
 记录一台已解锁 Bootloader 的 OPPO A7x，在找不到对应刷机包、USB 每次只充电、Recovery Root 失败的情况下，最终通过 **Magisk 27 + 普通 boot 最小 ramdisk + legacy SAR 内核补丁** 获得可重启保持的 Root。
 
-这是单台设备的研究记录，不是 OPPO 全机型通刷包。仓库不提供刷机镜像、设备 NV 备份、破解解锁工具或一键刷写脚本。
+这是单台设备的研究记录，不是 OPPO 全机型通刷包。Git 仓库不包含设备分区镜像或 NV 备份；原始官方固件以分卷形式存放于 Release，详见下载入口。
+
+## 固件下载
+
+**[下载入口与合并方法](downloads/README.md)** · **[GitHub Release 备用存档](https://github.com/Crazy1wh/oppo-a7x-root-guide/releases/tag/firmware-c22-1220)**
+
+提供官方原始链接、GitHub 三分卷、完整文件 / 分卷 SHA256 和自动下载合并脚本，原 CDN 失效后可使用 Release。包为 PBBM00 标识，不能据此整包刷入 PBBT00。
 
 ## 实测设备与结果
 
@@ -49,4 +55,4 @@
 - 已验证的 Root 仅需要写 boot；Recovery 最终恢复原厂，没有刷整包或格式化 userdata。
 - 系统包写着 PBBM00，手机是 PBBT00。**只验证了选定 boot / 重建 Recovery 的适配证据，不代表整包可刷。**
 
-新增文档与脚本使用 [MIT License](LICENSE)；第三方软件、官方固件及其权利归各自作者 / 厂商，本仓库仅链接来源，不重新分发。
+新增文档与脚本使用 [MIT License](LICENSE)；第三方软件、官方固件及其权利归各自作者 / 厂商。Release 中的厂商固件不受本项目 MIT 许可覆盖。
