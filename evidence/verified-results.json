@@ -1,0 +1,26 @@
+{
+  "recorded_on": "2026-10-23",
+  "scope": "One OPPO A7x PBBT00, PBBT00_11_C.22, unlocked bootloader; not a universal compatibility claim",
+  "root": {
+    "verified": true,
+    "reboot_verified": true,
+    "target": "boot",
+    "core": "27.0:MAGISK:R",
+    "manager": "30.7",
+    "su_output": "uid=0(root) gid=0(root) groups=0(root) context=u:r:magisk:s0",
+    "recovery_final_state": "stock restored",
+    "userdata_formatted": false,
+    "reboot_adb_return_seconds": 26.7
+  },
+  "images": {
+    "stock_boot": {"bytes": 11182960, "sha256": "b43915e5c9a4d00a3611a896754958fc900762d60f2225a1814eff0059b48c76"},
+    "reconstructed_stock_recovery": {"bytes": 44245872, "sha256": "f9e6e3145ecce967869d3ecaca9dcf8302ab0f800c616993d633a14032517331", "image_id": "b7b1bc11a07e7acc63e6a7039e4c1a0ab86b93e1"},
+    "root_only_boot": {"bytes": 12004650, "sha256": "151802e94f07aa810d5138933e8f2e4ac7e442dba488e7081c59047cc1e8ed01", "image_id": "ca8673f59845b3e6be29e0807ad0ca9f878f0edc", "ramdisk_bytes": 825172},
+    "root_and_autoboot_full_boot": {"bytes": 33554432, "sha256": "67f4b836836eba3afd1fcd5147fc21aea482ec8feaa3f6bf0c1a763d8ec73f49", "image_id": "818f758876c9c8e5bb9c7df9b7a756011c799d48"}
+  },
+  "failed_paths": ["Magisk 30.7 recovery: kernel_panic, rolled back", "Magisk 27 recovery: kernel_panic, rolled back", "fastboot boot: OKAY without verified patched-image startup", "OEM off-mode-charge 0: rejected; value remained 1"],
+  "usb": {"reboot_verified": true, "state": "mtp,adb", "disabled_vendor_package": "com.coloros.usbselection", "adb_authentication_preserved": true},
+  "autoboot": {"boot_scripts_present": true, "normal_startup_and_root_verified": true, "powered_off_charger_insertion_test": "NOT TESTED"},
+  "backup": {"verified_images_or_regions": 46, "bytes": 6300860416, "contains_userdata": false, "restore_tested": false, "online_snapshot": true},
+  "publication": {"device_identifiers_removed": true, "raw_logs_included": false, "firmware_or_partition_images_included": false}
+}

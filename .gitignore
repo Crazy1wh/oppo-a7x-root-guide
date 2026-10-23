@@ -1,0 +1,21 @@
+# Never publish firmware or device dumps.
+*.img
+*.bin
+*.ozip
+*.zip
+*.apk
+*.dex
+*.vdex
+*.odex
+*.oat
+*.log
+*.cpio
+*.p
+backups/
+firmware/
+private/
+work*/
+tools/
+.env*
+__pycache__/
+*.pyc
